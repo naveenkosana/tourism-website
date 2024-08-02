@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Paris",
+    "description": "City of lights...",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "attractions": [
+      "Eiffel Tower",
+      "Louvre Museum",
+      "Arc de Triomphe",
+      "Notre Dame Cathedral"
+    ],
+    "activities": [
+      "Seine River cruise",
+      "Visit a Parisian cafe",
+      "Explore Montmartre",
+      "Stroll through the Luxembourg Gardens"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "New York City",
+    "description": "The city that never sleeps...",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80",
+    "attractions": [
+      "Statue of Liberty",
+      "Times Square",
+      "Central Park",
+      "Empire State Building"
+    ],
+    "activities": [
+      "Broadway show",
+      "Museum hopping",
+      "Walk the High Line",
+      "Catch a game at Yankee Stadium"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bali",
+    "description": "Tropical paradise...",
+    "image": "https://images.unsplash.com/photo-1500213721845-709b85a28da0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "attractions": [
+      "Ubud Monkey Forest",
+      "Tanah Lot Temple",
+      "Tegalalang Rice Terrace",
+      "Besakih Temple"
+    ],
+    "activities": [
+      "Surfing",
+      "Yoga retreat",
+      "Scuba diving",
+      "Visit a traditional Balinese village"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tokyo",
+    "description": "A vibrant metropolis blending ancient traditions with cutting-edge technology.",
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "attractions": [
+      "Shibuya Crossing",
+      "Sensoji Temple",
+      "Tokyo Tower",
+      "Imperial Palace"
+    ],
+    "activities": [
+      "Sushi-making class",
+      "Robot Restaurant experience",
+      "Stroll through Shinjuku Gyoen National Garden",
+      "Explore Akihabara (electronics district)"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Marrakech",
+    "description": "A mesmerizing city in Morocco with bustling souks, stunning palaces, and vibrant colors.",
+    "image": "https://images.unsplash.com/photo-1719084198651-5ac167cb3e6e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "attractions": [
+      "Jemaa el-Fnaa square",
+      "Bahia Palace",
+      "Majorelle Garden",
+      "Koutoubia Mosque"
+    ],
+    "activities": [
+      "Haggle in the souks",
+      "Take a cooking class",
+      "Visit a traditional hammam",
+      "Day trip to the Sahara Desert"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sydney",
+    "description": "A modern Australian city known for its iconic harbor, beautiful beaches, and laid-back lifestyle.",
+    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "attractions": [
+      "Sydney Opera House",
+      "Sydney Harbour Bridge",
+      "Bondi Beach",
+      "Royal Botanic Garden"
+    ],
+    "activities": [
+      "Climb the Sydney Harbour Bridge",
+      "Surf at Bondi Beach",
+      "Take a ferry to Manly Beach",
+      "Visit the Taronga Zoo"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Santorini",
+    "description": "A stunning Greek island with white-washed buildings, blue-domed churches, and breathtaking sunsets.",
+    "image": "https://images.unsplash.com/photo-1696519669474-3001c0e2b548?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "attractions": [
+      "Oia village",
+      "Fira town",
+      "Red Beach",
+      "Akrotiri archaeological site"
+    ],
+    "activities": [
+      "Hike from Fira to Oia",
+      "Take a boat trip to the volcano",
+      "Wine tasting tour",
+      "Relax on the black sand beaches"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Banff National Park",
+    "description": "A Canadian gem with majestic mountains, turquoise lakes, and abundant wildlife.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "attractions": [
+      "Lake Louise",
+      "Moraine Lake",
+      "Johnston Canyon",
+      "Sulphur Mountain"
+    ],
+    "activities": [
+      "Hiking",
+      "Canoeing/kayaking",
+      "Wildlife viewing",
+      "Scenic gondola ride"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Kyoto",
+    "description": "A captivating Japanese city with ancient temples, traditional gardens, and geisha districts.",
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+    "attractions": [
+      "Kinkaku-ji (Golden Pavilion)",
+      "Fushimi Inari-taisha Shrine",
+      "Arashiyama Bamboo Grove",
+      "Kiyomizu-dera Temple"
+    ],
+    "activities": [
+      "Tea ceremony experience",
+      "Kimono rental and stroll",
+      "Bamboo forest walk",
+      "Visit the Nishiki Market"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+.destination-page-container {
+    padding-top: 40px;
+  }
+  
+  .destination-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .list-group-item {
+    background-color: #f8f9fa;
+    border-color: #dee2e6; 
+  }
+  

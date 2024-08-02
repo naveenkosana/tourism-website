@@ -1,0 +1,19 @@
+{
+  "name": "tourism-website",
+  "version": "1.0.0",
+  "description": "Tourism Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js",
+    "debug": "nodemon --inspect app.js"
+  },
+  "author": "Priya Kadiam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
