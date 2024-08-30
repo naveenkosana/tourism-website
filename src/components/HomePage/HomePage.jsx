@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Card, Form } from "react-bootstrap"; // Import Bootstrap components
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Homepage() {
+  const location = useLocation();
+  const { username } = location.state?.formData;
   const [destinations, setDestinations] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -18,10 +20,20 @@ function Homepage() {
 
   return (
     <div className="homepage-container">
-      <Container className="homepage-content">
-        <h1 className="display-4 text-dark text-center mb-4">
-          Wanderlust Awaits
+      <header className="app-name-banner">
+        <h1 className="display-4 text-dark text-center">
+          Wanderlust: A Tourism Website
         </h1>
+      </header>
+      <Container className="homepage-content">
+        {username && ( // Check if userName exists
+          <h4 className="text-dark text-center mb-4">
+            Welcome, {username}! Wanderlust Awaits!
+          </h4>
+        )}
+        {!username && ( // Display default message if no userName
+          <h4 className="text-dark text-center mb-4">Wanderlust Awaits!</h4>
+        )}
         <Form.Control
           type="text"
           className="mb-3"

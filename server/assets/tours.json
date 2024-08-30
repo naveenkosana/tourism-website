@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "destinationId": 1,
+    "name": "City Highlights Tour",
+    "description": "Explore the iconic landmarks of Paris, including the Eiffel Tower, Louvre Museum, and Notre Dame Cathedral.",
+    "price": 100,
+    "duration": "4 hours",
+    "guideLanguage": "English"
+  },
+  {
+    "id": 2,
+    "destinationId": 1,
+    "name": "Wine Tasting Tour in Champagne",
+    "description": "Visit a Champagne region and learn about the production process, followed by a tasting of different Champagnes.",
+    "price": 200,
+    "duration": "Day trip",
+    "guideLanguage": "English, French"
+  },
+  {
+    "id": 10,
+    "destinationId": 9,
+    "name": "Temples and Gardens Tour",
+    "description": "Visit some of Kyoto's most famous temples and gardens, including Kinkaku-ji (Golden Pavilion) and Arashiyama Bamboo Grove.",
+    "price": 150,
+    "duration": "8 hours",
+    "guideLanguage": "English, Japanese"
+  },
+  {
+    "id": 11,
+    "destinationId": 9,
+    "name": "Geisha Experience Tour",
+    "description": "Learn about the traditions and culture of geisha and enjoy a performance.",
+    "price": 300,
+    "duration": "3 hours",
+    "guideLanguage": "English"
+  }
+]

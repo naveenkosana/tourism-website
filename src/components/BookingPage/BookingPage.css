@@ -1,0 +1,9 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  
+  .card-item:hover {
+    background-color: #ec2323;
+  }

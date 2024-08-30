@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "destinationId": 1,
+    "name": "Hotel Ritz Paris",
+    "price": 1000,
+    "description": "Luxurious hotel in the heart of Paris.",
+    "amenities": ["Spa", "Swimming pool", "Fitness center", "Restaurant"],
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "destinationId": 1,
+    "name": "Hotel National des Arts et Metiers",
+    "price": 200,
+    "description": "Charming boutique hotel in a historic district.",
+    "amenities": ["Free Wi-Fi", "Bar", "Concierge service"],
+    "rating": 3.8
+  },
+  {
+    "id": 10,
+    "destinationId": 9,
+    "name": "Rihga Kyoto Hotel",
+    "price": 350,
+    "description": "Modern hotel with stunning city views.",
+    "amenities": ["Spa", "Swimming pool", "Fitness center", "Restaurant"],
+    "rating": 4.2
+  },
+  {
+    "id": 11,
+    "destinationId": 9,
+    "name": "Gion Hatanaka",
+    "price": 500,
+    "description": "Traditional Japanese Ryokan with a tranquil garden.",
+    "amenities": [
+      "Onsen (hot spring)",
+      "Traditional Japanese garden",
+      "Kaiseki dining"
+    ],
+    "rating": 4.8
+  }
+]

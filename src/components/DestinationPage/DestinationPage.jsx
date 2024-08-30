@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import {
   Container,
   Row,
@@ -13,6 +13,7 @@ import {
 function DestinationPage() {
   const { id } = useParams();
   const [destination, setDestination] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch(`http://localhost:5000/api/destinations/${id}`)
@@ -23,6 +24,11 @@ function DestinationPage() {
   if (!destination) {
     return <div>Loading...</div>;
   }
+
+  const handleBookNow = () => {
+    // Pass the destination data to the BookingPage
+    navigate(`/booking/${id}`, { state: { destination } });
+  };
 
   return (
     <Container className="destination-page-container">
@@ -49,7 +55,7 @@ function DestinationPage() {
               </Badge>
             ))}
           </div>
-          <Button className="mt-4" variant="primary">
+          <Button className="mt-4" variant="primary" onClick={handleBookNow}>
             Book Now
           </Button>
         </Col>
